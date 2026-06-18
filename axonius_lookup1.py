@@ -5,7 +5,7 @@ import logging
 
 app = Flask(__name__)
 logging.basicConfig(
-    level=logging.INFO,  # Use DEBUG for more detail
+    level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
 logger = logging.getLogger(__name__)
